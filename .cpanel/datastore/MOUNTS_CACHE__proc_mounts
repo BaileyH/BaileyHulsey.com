@@ -1,0 +1,7 @@
+/dev/ploop33530p1 / ext4 rw,relatime,barrier=1,data=ordered,balloon_ino=12 0 0
+proc /proc proc rw,relatime 0 0
+sysfs /sys sysfs rw,relatime 0 0
+none /dev devtmpfs rw,relatime,mode=755 0 0
+none /dev/pts devpts rw,relatime,gid=5,mode=620,ptmxmode=000 0 0
+none /dev/shm tmpfs rw,relatime 0 0
+none /proc/sys/fs/binfmt_misc binfmt_misc rw,relatime 0 0

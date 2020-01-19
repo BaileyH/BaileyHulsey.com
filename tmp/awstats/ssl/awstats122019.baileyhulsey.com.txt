@@ -1,0 +1,429 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201912 will be lost/reset.
+# Last config file used to build this data file was /home/bailey/tmp/awstats/ssl/awstats.baileyhulsey.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2015                
+POS_TIME 2686                
+POS_VISITOR 7841                
+POS_DAY 9840                
+POS_DOMAIN 3283                
+POS_LOGIN 3699                
+POS_ROBOT 3854                
+POS_WORMS 4122                
+POS_EMAILSENDER 4253                
+POS_EMAILRECEIVER 4396                
+POS_SESSION 10487               
+POS_SIDER 10673               
+POS_FILETYPES 4531                
+POS_DOWNLOADS 4635                
+POS_OS 4683                
+POS_BROWSER 4853                
+POS_SCREENSIZE 5351                
+POS_UNKNOWNREFERER 5425                
+POS_UNKNOWNREFERERBROWSER 6012                
+POS_ORIGIN 6166                
+POS_SEREFERRALS 6300                
+POS_PAGEREFS 6444                
+POS_SEARCHWORDS 6689                
+POS_KEYWORDS 6841                
+POS_MISC 2350                
+POS_ERRORS 6900                
+POS_CLUSTER 3555                
+POS_SIDER_404 7001                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200101095435 1 0 4535926405480
+FirstTime 20191201125521
+LastTime 20191231220321
+LastUpdate 20200102061115 1 0 0 0 0
+TotalVisits 78                  
+TotalUnique 50                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 50                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 511 0 0 0
+1 5 5 2555 1 1 52
+2 12 12 361045 14 14 520219
+3 9 9 82872 56 56 2436
+4 69 69 626525 10 10 5110
+5 0 0 0 1 1 511
+6 1 1 12081 1 2 0
+7 3 3 13102 0 0 0
+8 5 5 511 0 0 0
+9 6 6 12085 1 1 52
+10 8 8 51974 0 0 0
+11 2 2 0 7 7 0
+12 10 10 1022 0 0 0
+13 0 0 0 0 0 0
+14 3 3 511 2 2 511
+15 1 1 511 0 16 0
+16 15 15 599111 0 15 0
+17 0 0 0 15 27 525
+18 0 0 0 0 14 0
+19 26 26 962523 42 46 1040340
+20 2 2 1022 1 1 35
+21 2 2 51987 1 1 511
+22 2 2 40420 2 2 511
+23 0 0 0 3 5 511
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 15
+ru 66 66 428078
+us 37 37 187447
+za 24 24 958551
+se 15 15 599111
+de 14 14 17702
+gb 9 9 145916
+cn 5 5 120910
+ua 3 3 110801
+ar 2 2 52048
+in 2 2 79908
+th 1 1 39964
+ke 1 1 39962
+bb 1 1 39970
+gr 1 1 0
+ca 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+(firefox/)([0-9]\.|[0-1][0]\.) 10 5110 20191220045543 0
+bot[\s_+:,\.\;\/\\-] 8 4088 20191230215456 0
+no_user_agent 1 0 20191230140557 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+php 28 1026125 0 0
+html 154 1794243 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+winlong 5 5
+win10 8 8
+Unknown 46 46
+win2000 10 10
+winxp 14 14
+macosx11 7 7
+linux 76 76
+win7 9 9
+unix 7 7
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 25
+edge12 4 4
+firefox62.0 67 67
+chrome51.0.2704.64 7 7
+mozilla 19 19
+firefox33.0 1 1
+safari9.0.2 4 4
+firefox15.0.1 3 3
+chrome40.0.2214.85 2 2
+Unknown 27 27
+chrome71.0.3578.98 2 2
+chrome78.0.3904.108 5 5
+firefox12.0 1 1
+firefox13.0.1 4 4
+msie9.0 3 3
+chrome40.0.2214.93 1 1
+opera12.01 1 1
+opera7.02 5 5
+msie6.0 8 8
+chrome41.0.2227.0 1 1
+msie7.0 6 6
+firefox47.0 2 2
+safari10.0.3 1 1
+chrome47.0.2526.111 2 2
+chrome55.0.2883.87 1 1
+chrome13.0.782.112 5 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20191231220321
+python-requests/2.21.0 20191210075509
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12ca;__http://researchscan.comsys.rwth-aachen.de) 20191228011138
+Go-http-client/1.1 20191231092450
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t13rl;__http://researchscan.comsys.rwth-aachen.de) 20191228144015
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12sns;__http://researchscan.comsys.rwth-aachen.de) 20191228014109
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Go-http-client/1.1 20191231092450
+python-requests/2.21.0 20191210075509
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 178 178
+From1 1 1
+From2 0 0
+From3 3 3
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://cpanel.baileyhulsey.com/wp-login.php 2 2
+http://webmail.baileyhulsey.com/wp-login.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 89 0
+401 113 1562126
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 25
+/sftp-config.json 1 -
+/magento2/pub/errors/503.php 1 -
+/shop/pub/errors/503.php 1 -
+/ftpsync.settings 1 -
+/deployment-config.json 1 -
+/.vscode/sftp.json 1 -
+/.remote-sync.json 1 -
+/shop/admin/ 1 -
+/shop/ 1 -
+/magento2/admin/ 1 -
+/sitemap.xml 2 -
+/.ftpconfig 1 -
+/pub/errors/503.php 1 -
+/.vscode/ftp-sync.json 1 -
+/store/pub/errors/503.php 1 -
+/admin/ 1 -
+/ads.txt 31 -
+/robots.txt 33 -
+/store/ 1 -
+/store/admin/ 1 -
+/magento/ 1 -
+/.well-known/assetlinks.json 2 -
+/magento/pub/errors/503.php 1 -
+/magento/admin/ 1 -
+/magento2/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 50
+213.159.213.236 53 53 27083 20191220045551
+137.59.252.172 15 15 599111 20191216161138
+196.52.84.53 15 15 598931 20191212040428
+35.162.70.167 10 10 0 20191228093718
+196.52.84.24 9 9 359620 20191217191940
+185.128.26.23 9 9 359512 20191219020848
+52.41.211.72 9 9 0 20191224100436
+137.226.113.26 6 6 3066 20191228014109
+52.34.24.33 5 5 0 20191231092450
+137.226.113.28 3 3 1533 20191221032641
+72.221.232.148 2 2 79900 20191217193118
+60.191.38.77 2 2 1022 20191219203618
+163.172.163.25 2 2 12588 20191224101202
+185.50.251.15 2 2 70839 20191217193058
+137.226.113.27 2 2 1022 20191228144015
+167.71.183.238 2 2 1022 20191221010402
+103.192.76.137 2 2 79908 20191217193340
+138.246.253.5 2 2 0 20191223082656
+167.172.22.219 1 1 511 20191205034528
+220.164.2.123 1 1 39964 20191217192916
+68.183.146.20 1 1 511 20191205040221
+163.172.154.242 1 1 511 20191224150415
+46.148.112.253 1 1 39962 20191217192737
+61.189.47.93 1 1 39966 20191217192939
+51.158.97.248 1 1 12080 20191224075036
+138.197.202.197 1 1 12079 20191217193026
+180.183.243.80 1 1 39964 20191217192834
+41.139.217.254 1 1 39962 20191217192758
+34.213.213.95 1 1 511 20191229073754
+51.158.98.255 1 1 511 20191224025531
+212.92.121.117 1 1 511 20191204193114
+37.9.47.150 1 1 39950 20191217193223
+157.245.213.170 1 1 39909 20191231220321
+142.93.157.50 1 1 0 20191226145813
+64.119.195.186 1 1 39970 20191217193026
+18.237.79.206 1 1 511 20191210075509
+178.128.226.90 1 1 0 20191226145812
+77.74.177.113 1 1 511 20191206124242
+167.172.29.29 1 1 39909 20191205031030
+167.71.107.220 1 1 39897 20191205030958
+157.245.221.28 1 1 511 20191205035014
+167.172.25.176 1 1 39909 20191203211214
+181.119.18.7 1 1 12078 20191231214558
+34.223.94.87 1 1 511 20191230082706
+77.74.177.114 1 1 511 20191206124241
+190.182.179.11 1 1 39970 20191217193002
+183.234.36.42 1 1 39958 20191217193412
+167.172.253.24 1 1 39897 20191231101008
+173.212.224.117 1 1 12085 20191218095140
+5.9.97.68 1 1 12081 20191218063306
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20191201 1 1 0 1
+20191202 1 1 0 1
+20191203 2 2 39909 2
+20191204 2 2 511 2
+20191205 7 7 81339 7
+20191206 3 3 1022 3
+20191207 4 4 1533 2
+20191208 1 1 0 1
+20191209 1 1 0 1
+20191210 1 1 511 1
+20191211 1 1 0 1
+20191212 16 16 598931 2
+20191213 1 1 0 1
+20191214 3 3 1022 3
+20191215 1 1 0 1
+20191216 15 15 599111 1
+20191217 25 25 962012 14
+20191218 2 2 24166 2
+20191219 12 12 360534 3
+20191220 54 54 27083 2
+20191221 6 6 2555 4
+20191223 3 3 511 3
+20191224 5 5 25179 5
+20191225 1 1 0 1
+20191226 3 3 0 3
+20191227 1 1 0 1
+20191228 4 4 1533 4
+20191229 1 1 511 1
+20191230 1 1 511 1
+20191231 4 4 91884 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+0s-30s 74
+5mn-15mn 1
+30s-2mn 1
+15mn-30mn 1
+1h+ 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 36
+/ 118 356443 59 59
+/dev/errors/503.php 4 150739 2 2
+/wp-login.php 3 36244 3 3
+/shop/admin/ 2 79860 0 0
+/staging/index.php/admin/ 2 79916 0 1
+/magento2/pub/errors/503.php 2 79928 0 0
+/magento/index.php/admin/ 2 79916 0 1
+/old/index.php/admin/ 2 79900 0 0
+/index.php/admin/ 2 79880 2 0
+/demo/index.php/admin/ 2 79904 0 0
+/store/index.php/admin/ 2 79908 0 0
+/shop/pub/errors/503.php 2 79912 0 0
+/magento/admin/ 2 79872 0 0
+/test/index.php/admin/ 2 79904 0 0
+/magento2/ 2 79848 0 2
+/magento/ 2 79844 0 0
+/store/admin/ 2 79864 0 0
+/magento/pub/errors/503.php 2 79924 0 0
+/magento2/admin/ 2 79876 0 0
+/shop/ 2 79832 0 0
+/store/errors/503.php 2 79908 1 1
+/shop/index.php/admin/ 2 79904 0 0
+/store/pub/errors/503.php 2 79916 0 0
+/pub/errors/503.php 2 79888 0 0
+/dev/index.php/admin/ 2 79900 0 0
+/old/errors/503.php 1 39950 1 1
+/shop/downloader/index.php 1 39964 1 1
+/test/downloader/index.php 1 39964 1 1
+/staging/downloader/index.php 1 39970 1 1
+/store/downloader/index.php 1 39966 1 1
+/old/downloader/index.php 1 39962 1 1
+/magento/downloader/index.php 1 39970 1 1
+/staging/errors/503.php 1 39958 1 1
+/dev/downloader/index.php 1 39962 1 1
+/store/ 2 79836 0 0
+/admin/ 2 79836 2 0
+END_SIDER

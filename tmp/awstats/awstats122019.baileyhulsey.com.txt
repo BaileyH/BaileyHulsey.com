@@ -1,0 +1,625 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201912 will be lost/reset.
+# Last config file used to build this data file was /home/bailey/tmp/awstats/awstats.baileyhulsey.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2689                
+POS_VISITOR 13220               
+POS_DAY 17996               
+POS_DOMAIN 3356                
+POS_LOGIN 3726                
+POS_ROBOT 3881                
+POS_WORMS 4353                
+POS_EMAILSENDER 4484                
+POS_EMAILRECEIVER 4627                
+POS_SESSION 18675               
+POS_SIDER 18833               
+POS_FILETYPES 4762                
+POS_DOWNLOADS 4845                
+POS_OS 4893                
+POS_BROWSER 5108                
+POS_SCREENSIZE 5852                
+POS_UNKNOWNREFERER 5926                
+POS_UNKNOWNREFERERBROWSER 6433                
+POS_ORIGIN 6587                
+POS_SEREFERRALS 6721                
+POS_PAGEREFS 6902                
+POS_SEARCHWORDS 7087                
+POS_KEYWORDS 7239                
+POS_MISC 2353                
+POS_ERRORS 7298                
+POS_CLUSTER 3582                
+POS_SIDER_404 7396                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200101022202 58 11304 9141712004207
+FirstTime 20191201004105
+LastTime 20191231230717
+LastUpdate 20200101061511 58 0 57 0 0
+TotalVisits 139                 
+TotalUnique 125                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 125                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 1533 12 13 1022
+1 7 7 3577 29 35 2044
+2 5 5 2555 7 12 1022
+3 6 6 3066 5 8 1533
+4 3 3 1533 14 23 3577
+5 8 8 4088 19 28 3066
+6 6 6 3066 18 21 1533
+7 3 3 1022 13 19 2044
+8 16 16 7154 29 29 511
+9 15 15 6643 11 14 2044
+10 18 18 8176 25 28 1533
+11 11 11 4599 18 22 1533
+12 10 10 5110 19 23 2555
+13 2 2 1022 11 17 2555
+14 3 3 511 10 23 3577
+15 3 3 1533 15 34 1533
+16 7 7 3577 20 50 2044
+17 5 5 2555 23 33 1533
+18 0 0 0 10 13 1533
+19 1 1 511 15 17 1533
+20 7 7 3577 27 32 2044
+21 7 7 3577 60 64 2044
+22 6 6 3066 34 36 0
+23 7 7 3577 51 70 5621
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+us 72 72 31682
+cn 47 47 24017
+gb 17 17 8687
+ru 7 7 3577
+ca 6 6 2555
+ro 2 2 1022
+in 2 2 1022
+jp 1 1 511
+se 1 1 511
+fr 1 1 511
+ua 1 1 511
+eu 1 1 511
+cz 1 1 511
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+Googlebot/ 61 31171 20191228011908 0
+AhrefsBot/ 6 3066 20191230163241 0
+YandexBot/ 6 3066 20191223041829 0
+no_user_agent 3 1533 20191217125312 0
+bingbot/ 3 0 20191230175523 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 1022 20191225064825 0
+bot[\s_+:,\.\;\/\\-] 1 511 20191213110013 0
+KomodiaBot/ 1 511 20191216212230 0
+DotBot/ 1 511 20191231050903 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 159 75628 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+win7 10 10
+winxp 1 1
+winlong 2 2
+linuxandroid 2 2
+win10 88 88
+macosx10 1 1
+macosx11 2 2
+win8.1 1 1
+linux 33 33
+macosx8 1 1
+Unknown 17 17
+macosx9 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 33
+chrome26.0.1410.65 1 1
+chrome45.0.2454.94 1 1
+netscape5.0 1 1
+chrome71.0.3578.98 2 2
+chrome65.0.3325.181 1 1
+firefox56.0 1 1
+chrome68.0.3440.106 1 1
+chrome67.0.3396.87 1 1
+chrome41.0.2228.0 2 2
+chrome74.0.3729.131 2 2
+chrome79.0.3945.79 1 1
+chrome79.0.3945.88 1 1
+opera62.0.3331.99 14 14
+chrome76.0.3809.132 2 2
+chrome55.0.2883.87 1 1
+chrome67.0.3396.79 1 1
+chrome21.0.1180.89 1 1
+msie11.0 1 1
+Unknown 10 10
+chrome40.0.2214.93 1 1
+chrome41.0.2224.3 1 1
+chrome34.0.1847.116 1 1
+firefox47.0 2 2
+firefox63.0 1 1
+firefox59.0 1 1
+opera54.0.2952.51 2 2
+chrome66.0.3359.181 28 28
+mozilla 23 23
+chrome78.0.3904.70 3 3
+msie8.0 1 1
+chrome73.0.3664.2 1 1
+chrome63.0.3239.132 48 48
+chrome42.0.2311.90 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20191203085043
+Mozilla/4.0_(compatible;_Netcraft_Web_Server_Survey) 20191230111752
+Mozilla/5.0_(compatible;_ips-agent) 20191225163225
+Mozilla/5.0_(compatible;_Panscient/1.0;__http://panscient.com/faq.htm) 20191216053408
+Go-http-client/1.1 20191231230717
+python-requests/2.22.0 20191230174531
+Mozilla/5.0_(compatible;_Dataprovider.com) 20191215025133
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Go-http-client/1.1 20191231230717
+python-requests/2.22.0 20191230174531
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 150 150
+From1 0 0
+From2 2 2
+From3 1 1
+From4 6 6
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com_hk 1 1
+google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://www.netcraft.com/survey/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 565 0
+206 13 6643
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 167
+/xmlrpc.php 100 -
+/vendor/phpunit/phpunit/build.xml 2 -
+/primer/functions.php 1 baileyhulsey.com
+/flatsome/functions.php 1 baileyhulsey.com
+/user/register/ 1 -
+/pma.php 1 -
+/adm.php 1 -
+/adminer-4.6.2.php 1 -
+/administrator/ 4 -
+//cms/wp-login.php 1 -
+/wordpress/ 1 -
+/ad.php 1 -
+/adminer 1 -
+/wp-content/plugins/hybrid-composer/style.css 1 -
+/dev/ 1 -
+//wp/wp-login.php 1 -
+/blog/wp-login.php 5 -
+/twentynineteen/functions.php 1 baileyhulsey.com
+/twentyseventeen/functions.php 1 baileyhulsey.com
+/backup/ 1 -
+/wp-content/plugins/ithemes-sync/js/settings-page.js 1 -
+/wp-content/plugins/visualizer/js/media.js 1 -
+/portal/ 1 -
+/twentyfifteen/functions.php 1 baileyhulsey.com
+/wp-content/plugins/fb-messenger-live-chat/assets/js/main.js 1 -
+/.git/HEAD 6 -
+/site/ 1 -
+/test/ 1 -
+/web/wp-login.php 1 -
+/__media__/js/netsoltrademark.php 1 -
+/sitemap.xml 3 -
+//admin/images/cal_date_over.gif 1 http://www.google.com.hk
+/news-box/functions.php 1 baileyhulsey.com
+//2019/wp-login.php 1 -
+/.svn/all-wcprops 1 -
+/.bitcoin/backup.dat 2 -
+/adminer-4.3.1-mysql.php 1 -
+/main.css 38 http://baileyhulsey.com/
+/bitcoin.dat 2 -
+/wp-content/themes/azuma/db.php 1 -
+/dl.php 2 -
+/demo/ 1 -
+/adminer-4.1.0-mysql.php 1 -
+/wp-readme.php 1 baileyhulsey.com
+/wp-content/plugins/yuzo-related-post/assets/js/admin.js 1 -
+/urlreplace.php 1 -
+/ 1 \"><script%20type=text/javascript%20src='https://statistic.admarketlocation.com/hos
+/BAILEYHULSEY/wp-login.php 1 -
+//wp-login.php 1 http://www.google.com.hk
+/unzipper.php 2 -
+/connect.php 1 -
+/wp-content/plugins/insert-php/admin/assets/js/tag-it.js 1 -
+/phpmyadmin/ 1 -
+/_adminer 1 -
+/wp-admin/admin-ajax.php 7 -
+/wp/wp-login.php 1 -
+//site/wp-login.php 1 -
+/website/wp-login.php 1 -
+/web/ 1 -
+/wp-content/themes/dunag/db.php 2 -
+/old/ 1 -
+/admin.php 4 -
+/wp-content/plugins/bb-ultimate-addon/assets/css/uabb-admin-notice.css 1 baileyhulsey.com
+/storefront/functions.php 1 baileyhulsey.com
+/replace.php 2 -
+/wp-login.php 34 -
+/user/login 1 -
+/wp-content/themes/dinan/db.php 2 -
+/adminer-4.2.4.php 1 -
+/wp-hook-ajax.php 1 -
+/readme.php 1 baileyhulsey.com
+/wp-json/wp/v2/users/ 50 -
+/mysql.php 1 -
+/installer.php 2 -
+/.bitcoin/bitcoin.dat 2 -
+/license.php 3 -
+/wp-content/plugins/wp-inventory-manager/themes/css/default-theme.css 1 -
+/wp/ 1 -
+/index.php 2 baileyhulsey.com
+/adminer-4.2.5.php 1 -
+/adminer-4.1.0.php 1 -
+/main/ 1 -
+/wp-content/plugins/igniteup/includes/js/main.js 1 -
+/wp/wordpress/wp-login.php 1 -
+/wp-content/plugins/easy-wp-smtp/js/script.js 1 -
+/wp-content/plugins/ultimate-elementor/assets/css/modules/business-hours.css 1 baileyhulsey.com
+/enfold/functions.php 1 baileyhulsey.com
+/adminer.php 1 -
+//wordpress/wp-login.php 1 -
+/wp-load.php 5 -
+/admin 4 -
+/wp-admin/wp-hook-ajax.php 1 -
+/sdfsdfsdf34fvebvvgsdf 1 https://yahoo.co.jp/
+/searchreplacedb2.php 3 -
+/wp-admin 1 \"><script%20type=text/javascript%20src='https://statistic.admarketlocation.com/hos
+/blog/ 1 -
+/genesis/functions.php 1 baileyhulsey.com
+/zerif-lite/functions.php 1 baileyhulsey.com
+/wp-content/plugins/yellow-pencil-visual-theme-customizer/js/yellow-pencil.js 1 -
+/cms/ 1 -
+/download.php 1 -
+/wp-content/plugins/fv-wordpress-flowplayer/css/flowplayer.css 1 -
+/backup/backup.dat 2 -
+/wp-content/plugins/wpematico/app/js/wpe_hooks.js 1 -
+/wp-admin/admin-post.php 7 baileyhulsey.com
+/.bitcoin/wallet.dat 2 -
+/wp-content/plugins/smart-google-code-inserter/screenshot1.jpg 1 -
+/news/wp-login.php 1 -
+/vendor/phpunit/phpunit/LICENSE 2 -
+/test/wp-login.php 3 -
+/wp-includes/class.wp.php 2 baileyhulsey.com
+/classic/functions.php 1 baileyhulsey.com
+/lalita/functions.php 1 baileyhulsey.com
+//public_html/wp-login.php 1 -
+//html/wp-login.php 1 -
+/fileman/index.html 1 -
+//www/wp-login.php 1 -
+/default/functions.php 1 baileyhulsey.com
+/adminer-4.2.4-mysql.php 1 -
+/wp-content/plugins/easy2map/scripts/jquery.xml2json.js 1 -
+//blog/wp-login.php 1 -
+//templates/system/css/system.css 1 http://www.google.com.hk
+/backup/bitcoin.dat 2 -
+/wp-content/themes/wp-update.php 1 baileyhulsey.com
+/adminer-4.2.5-mysql.php 1 -
+/AdvanceImage5/functions.php 1 baileyhulsey.com
+/wp-content/plugins/rich-reviews/css/rich-reviews.css 1 -
+/wp-content/plugins/wp-live-chat-software-for-wordpress/plugin_files/js/livechat.js 1 -
+/adminer-4.6.2-mysql.php 1 -
+/.env 3 -
+/sydney/functions.php 1 baileyhulsey.com
+/um-api/route/um!core!Files/ajax_image_upload/1234123412 1 baileyhulsey.com
+/home/ 1 -
+/twentysixteen/functions.php 1 baileyhulsey.com
+/unzip.php 2 -
+/new/ 1 -
+/backup/wp-login.php 2 -
+/ads.txt 32 -
+/alternate-lite/functions.php 1 baileyhulsey.com
+/_adminer.php 2 -
+/wp-content/plugins/delucks-seo/modules/professional/breadcrumbs/assets/css/frontend.css 1 -
+/blog/xmlrpc.php 1 -
+/cms/wp-login.php 1 -
+/license.txt 1 -
+/wallet.dat 2 -
+/db.php 1 -
+/wp-admin/ 4 http://baileyhulsey.com/wp-login.php
+/installer-backup.php 2 -
+/oceanwp/functions.php 1 baileyhulsey.com
+/wp-content/plugins/user-submitted-posts/resources/jquery.usp.admin.js 1 baileyhulsey.com
+/backup/wallet.dat 2 -
+/wp-po.php 1 baileyhulsey.com
+/administrator/index.php 4 http://baileyhulsey.com/administrator/
+/zenwater/functions.php 1 baileyhulsey.com
+/tmp/ 1 -
+/temp/ 1 -
+/wp-content/plugins/ultimate-member/core/lib/upload/um-image-upload.php 1 baileyhulsey.com
+/wordpress/wp-login.php 4 -
+/2019/wp-login.php 1 -
+/twentyfourteen/functions.php 1 baileyhulsey.com
+/wp-json/wpshopify/v1/settings 2 -
+/.git/config 1 -
+/adminer-4.3.1.php 1 -
+/wp-content/plugins/wp-private-content-plus/css/wppcp-front.css 1 -
+/backup.dat 2 -
+/robots.txt 73 -
+/wp-ajax-hook.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 125
+51.68.152.26 14 14 7154 20191229065451
+66.235.169.51 4 4 2044 20191208195842
+167.114.117.176 3 3 1533 20191215024914
+183.150.45.125 2 2 1022 20191223082636
+157.245.173.69 2 2 1022 20191221010401
+35.231.84.205 2 2 511 20191231112309
+60.191.38.77 2 2 1022 20191219203617
+35.229.76.22 2 2 511 20191227105431
+125.106.206.41 2 2 1022 20191217021814
+183.150.238.45 2 2 1022 20191225163317
+35.237.51.66 2 2 511 20191223102449
+104.196.206.136 2 2 511 20191211085657
+35.227.79.102 2 2 511 20191203075505
+183.150.139.221 2 2 1022 20191230103327
+35.237.250.228 2 2 511 20191219095440
+35.243.222.254 2 2 511 20191207082412
+93.159.230.28 2 2 1022 20191219034021
+35.243.229.195 2 2 511 20191215092408
+65.154.226.220 2 2 1022 20191209205804
+178.62.74.6 1 1 511 20191204034249
+123.148.246.31 1 1 511 20191214230823
+35.166.189.232 1 1 511 20191215104230
+123.148.145.205 1 1 511 20191222060505
+123.148.246.22 1 1 511 20191227052139
+123.148.219.87 1 1 511 20191223124528
+34.211.211.2 1 1 511 20191229084026
+50.112.76.224 1 1 511 20191219091639
+109.102.111.63 1 1 511 20191203092101
+123.148.244.168 1 1 511 20191216224244
+185.232.21.143 1 1 511 20191209054300
+183.150.249.145 1 1 511 20191217153247
+54.215.204.166 1 1 511 20191228083921
+123.148.246.14 1 1 511 20191227220310
+183.150.222.105 1 1 511 20191217171255
+34.222.154.191 1 1 511 20191228093718
+44.228.129.1 1 1 511 20191209082101
+185.136.159.26 1 1 511 20191210005354
+18.236.209.69 1 1 511 20191230082707
+123.148.144.42 1 1 511 20191208224958
+123.148.240.210 1 1 511 20191210053533
+52.192.210.84 1 1 511 20191220100925
+54.200.231.163 1 1 511 20191203101604
+212.92.119.83 1 1 511 20191228223949
+183.150.222.101 1 1 511 20191214160552
+54.186.185.108 1 1 511 20191225110108
+62.210.79.40 1 1 511 20191220091404
+74.200.22.20 1 1 511 20191202202031
+34.213.226.210 1 1 511 20191202124547
+163.172.182.111 1 1 511 20191227062924
+123.148.242.4 1 1 511 20191218231850
+34.210.126.159 1 1 511 20191231092449
+54.185.222.167 1 1 511 20191227122228
+123.148.216.133 1 1 511 20191225235731
+138.68.60.27 1 1 511 20191224213600
+165.227.77.55 1 1 0 20191230111752
+52.38.37.116 1 1 511 20191230110822
+159.203.32.136 1 1 0 20191226145813
+79.139.225.160 1 1 511 20191229013431
+185.39.144.148 1 1 511 20191208032626
+34.210.27.231 1 1 511 20191209124447
+54.184.147.217 1 1 511 20191214102325
+34.223.253.85 1 1 511 20191211121319
+183.150.250.45 1 1 511 20191206112707
+64.246.165.150 1 1 511 20191223132531
+54.201.12.28 1 1 511 20191220100852
+123.148.208.168 1 1 511 20191207100609
+34.208.161.31 1 1 511 20191206123224
+123.148.211.123 1 1 511 20191210215959
+183.150.223.138 1 1 511 20191212010605
+103.115.120.249 1 1 511 20191205162430
+122.232.221.36 1 1 511 20191231173532
+34.208.89.141 1 1 511 20191201125520
+37.115.210.9 1 1 511 20191207081622
+72.76.221.125 1 1 511 20191216053408
+68.203.156.205 1 1 511 20191228221706
+54.185.7.117 1 1 511 20191224100435
+45.13.231.204 1 1 511 20191226173156
+207.99.15.82 1 1 511 20191219214306
+35.162.8.106 1 1 511 20191205052308
+123.148.217.146 1 1 511 20191220054408
+114.143.144.162 1 1 511 20191202040707
+123.148.144.135 1 1 511 20191213100645
+220.200.161.176 1 1 511 20191208050604
+54.187.245.122 1 1 511 20191207114710
+23.108.53.75 1 1 511 20191207164853
+183.150.236.252 1 1 511 20191221110523
+125.105.83.167 1 1 511 20191202151736
+115.207.110.54 1 1 511 20191206153857
+54.71.200.65 1 1 511 20191205123211
+52.26.57.231 1 1 511 20191208101323
+35.226.229.97 1 1 511 20191212162521
+5.188.62.5 1 1 511 20191214124949
+142.93.145.9 1 1 0 20191226145813
+34.222.71.110 1 1 511 20191213093038
+54.244.44.174 1 1 511 20191222110318
+69.58.178.58 1 1 511 20191225163225
+123.148.211.53 1 1 511 20191207063221
+183.150.239.1 1 1 511 20191201004105
+159.203.172.123 1 1 511 20191203085043
+34.221.225.16 1 1 511 20191212085313
+167.99.211.55 1 1 511 20191202231329
+217.31.62.163 1 1 511 20191228213124
+123.148.145.1 1 1 511 20191216043626
+34.215.58.226 1 1 511 20191220051650
+192.99.36.177 1 1 511 20191229140515
+85.204.246.193 1 1 511 20191230174531
+115.207.107.147 1 1 511 20191221062635
+115.207.111.25 1 1 511 20191202235137
+123.148.209.236 1 1 511 20191230045918
+123.148.144.160 1 1 511 20191231102712
+122.232.201.196 1 1 511 20191214064902
+210.140.154.38 1 1 511 20191231230717
+128.199.97.188 1 1 511 20191221205551
+51.77.246.206 1 1 511 20191215025133
+183.150.45.120 1 1 511 20191219112019
+107.174.239.198 1 1 511 20191227032846
+34.211.79.50 1 1 511 20191226095527
+123.148.246.40 1 1 511 20191223230053
+125.105.81.51 1 1 511 20191210090018
+34.220.83.27 1 1 511 20191225100335
+54.187.78.73 1 1 511 20191223035059
+183.150.139.62 1 1 511 20191201110639
+35.167.114.208 1 1 511 20191221085856
+123.148.245.35 1 1 511 20191220223139
+35.161.201.132 1 1 511 20191204125740
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20191201 3 3 1533 3
+20191202 6 6 3066 6
+20191203 5 5 2044 4
+20191204 5 5 2555 4
+20191205 4 4 2044 4
+20191206 3 3 1533 3
+20191207 10 10 4599 8
+20191208 5 5 2555 5
+20191209 5 5 2555 4
+20191210 4 4 2044 4
+20191211 6 6 2555 3
+20191212 3 3 1533 3
+20191213 2 2 1022 2
+20191214 6 6 3066 6
+20191215 8 8 3577 5
+20191216 3 3 1533 3
+20191217 3 3 1533 3
+20191218 4 4 2044 2
+20191219 9 9 4088 6
+20191220 6 6 3066 6
+20191221 7 7 3577 6
+20191222 3 3 1533 3
+20191223 7 7 3066 6
+20191224 2 2 1022 2
+20191225 7 7 3577 7
+20191226 4 4 1022 4
+20191227 7 7 3066 6
+20191228 5 5 2555 5
+20191229 5 5 2555 5
+20191230 6 6 2555 6
+20191231 6 6 2555 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30s-2mn 2
+0s-30s 137
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 159 75628 139 139
+END_SIDER

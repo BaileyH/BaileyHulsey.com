@@ -1,0 +1,1 @@
+{"timeout":0,"data":[{"user":"bailey","homedir":"/home/bailey","type":"main"},{"type":"logaccess","homedir":"/etc/apache2/logs/domlogs/bailey","user":"bailey_logs"}],"version":"2.4","action":"fetch","statusmsg":"Ran adminbin Cpanel/ftp/LISTSTORE","exit_code":0,"error":0,"status":1,"mode":"simple"}
