@@ -802,3 +802,280 @@ exit
 ls
 #1578091272
 exit
+#1579457351
+ls
+#1579457365
+nano public_html/index.html 
+#1579458570
+apt-get install
+#1579458578
+install git
+#1579458579
+git
+#1579458929
+ git init
+#1579458936
+ls
+#1579458939
+pwd
+#1579458976
+git add --all
+#1579459023
+git rm --cached .junest/opt/junest
+#1579459040
+git commit
+#1579459133
+git remote add origin git@github.com:baileyh/baileyhulsey.com
+#1579459139
+git push -u origin master
+#1579459154
+git push -u origin master --verbose
+#1579459222
+git commit
+#1579459291
+git config --global bailey.Bailey Hulsey
+#1579459302
+git commit -m "first commit"
+#1579459331
+git congif bailey@baileyh
+#1579459341
+git config bailey@baileyh
+#1579459359
+git config bailey.baileyh
+#1579459365
+git commit -m "first commit"
+#1579459371
+ls
+#1579459374
+cd .git
+#1579459375
+ls
+#1579459380
+nano config
+#1579459422
+cd ..
+#1579459434
+git config user.email "bailey"
+#1579459442
+nano .git/config 
+#1579459457
+git add *
+#1579459465
+git commit -m "initial commit"
+#1579459483
+git config user.email "hulseyb@ltisdschools.org"
+#1579459490
+git config user.name "bailey"
+#1579459493
+nano .git/config 
+#1579459500
+git add *
+#1579459507
+git commit -m "initial commit"
+#1579459614
+nano .git/config 
+#1579459719
+git remote add origin https://github.com/baileyh/baileyhulsey.com
+#1579459749
+git push -u origin master
+#1579460963
+git --version
+#1579461234
+git status
+#1579461263
+git add *
+#1579461266
+git status
+#1579461298
+git init --help
+#1579461313
+git help init
+#1579461324
+git help
+#1579461378
+git branch
+#1579461384
+git commit
+#1579461453
+cd .git
+#1579461461
+nano .gitignore
+#1579461472
+git commit
+#1579461477
+cd ..
+#1579461482
+git commit
+#1579461492
+cd .git
+#1579461497
+nano .gitignore
+#1579461512
+cd ..
+#1579461515
+git commit
+#1579461549
+git add .gitconfi
+#1579461551
+git add .gitconfig
+#1579461558
+git add .ssh/known_hosts
+#1579461565
+git commit -m "initial commit"
+#1579461571
+git status
+#1579461595
+git push -u origin master
+#1579461618
+git status
+#1579461621
+git
+#1579461669
+git remote -v
+#1579461724
+git help clone
+#1579461740
+git init -h
+#1579461748
+git clone -h
+#1579461829
+git config
+#1579461851
+git config user.name "BaileyH
+"
+#1579461864
+git config user.email "michaelhulsey@utexas.edu"
+#1579461877
+git config user.name
+#1579461882
+git config user.email
+#1579461936
+git config core.editor nano
+#1579461942
+git config core.editor
+#1579461989
+git --version
+#1579462563
+git status
+#1579462603
+git push
+#1579462617
+git push --set-upstream origin master
+#1579462694
+git remote set-url website git@github.com:BaileyH/BaileyHulsey.com
+#1579462703
+git remote
+#1579462714
+git remote set-url origin git@github.com:BaileyH/BaileyHulsey.com
+#1579462718
+git push
+#1579462722
+git push --set-upstream origin master
+#1579462777
+ls
+#1579462783
+cd .ssh
+#1579462785
+ls
+#1579462961
+git add .
+#1579462963
+git status
+#1579463591
+git remote set-url origin git@github.com:BaileyH/BaileyHulsey.com.git
+#1579463595
+git push
+#1579463601
+git push --set-upstream origin master
+#1579463680
+git remote -v
+#1579463684
+git remove --verbose
+#1579463692
+git remote --verbose
+#1579463854
+git remote add origin http://github.com/BaileyH/BaileyHulsey.com.git
+#1579463861
+git remote add origin2 http://github.com/BaileyH/BaileyHulsey.com.git
+#1579463868
+git remote -v
+#1579463875
+git push origin2
+#1579463930
+git push --help
+#1579463936
+git push -h
+#1579463980
+git fetch origin2
+#1579464044
+ls
+#1579464050
+cd ..
+#1579464052
+git status
+#1579464066
+git add .ssh/known_hosts
+#1579464077
+git commit -m "I added .ssh/known_hosts"
+#1579464081
+git status
+#1579464085
+git log
+#1579464095
+git push origin2
+#1579464117
+ls
+#1579464164
+git pull origin2
+#1579464183
+git pull origin2 master
+#1579464260
+git clone https://github.com/BaileyH/BaileyHulsey.com.git
+#1579464280
+git status
+#1579464288
+git add .
+#1579464322
+git rm --cached BaileyHulsey.com
+#1579464330
+git rm --cached BaileyHulsey.com -f
+#1579464343
+git status
+#1579464352
+git status --oneline
+#1579464362
+git status --one-line
+#1579464365
+git status
+#1579464377
+git commit -m "trying to commit website files"
+#1579464389
+ls
+#1579464394
+cd BaileyHulsey.com/
+#1579464395
+ls
+#1579464436
+rm BaileyHulsey.com
+#1579464463
+rm -r BaileyHulsey.com
+#1579464469
+cd ..
+#1579464470
+rm -r BaileyHulsey.com
+#1579464620
+ls
+#1579464624
+git status
+#1579464630
+git push origin2
+#1579464717
+git pull origin2
+#1579464741
+git pull origin2 master
+#1579464846
+git pull origin2 master --allow-unrelated-histories
+#1579464889
+git status
+#1579464905
+git push origin2 master
