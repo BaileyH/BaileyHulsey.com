@@ -1,8 +1,0 @@
-%FILES%
-etc/
-etc/pacman.d/
-etc/pacman.d/mirrorlist
-
-%BACKUP%
-etc/pacman.d/mirrorlist	f1fd571deb4675c845fc2c78737e0bf2
-
