@@ -1,0 +1,83 @@
+#!/bin/bash
+#
+# pacman.sh: pacman interactions
+# This file is part of Yaourt (http://archlinux.fr/yaourt-en)
+
+# Global var: P for pacman configuration
+declare -A P=()
+
+parse_pacman_conf() {
+	# Parse pacman options
+	declare -a PKGS_IGNORED=()
+	eval $(pacman_parse --debug -T |&
+	  sed -n -e 's/"/\\"/g' \
+             -e 's/^[\[\]0-9: ]//' \
+             -e 's/^debug: config: \([a-zA-Z]\+\): \(.*\)/P[\1]="${P[\1]}\2 "/p' \
+             -e 's/^debug: config: \([a-zA-Z]\+\)$/P[\1]=1/p' \
+             -e "s/^debug: option '\([a-zA-Z]\+\)' = \(.*\)/P[\1]=\"\2\"/p"
+	)
+	# Set DB Path, Lock File and Cache Dir
+	[[ ${P[dbpath]} ]] && P[dbpath]=${P[dbpath]% } || P[dbpath]="$DBPATH"
+	P[lockfile]="${P[dbpath]}/db.lck"
+	[[ ${P[cachedir]} ]] || P[cachedir]='/var/cache/pacman/pkg/'
+	# Add ignored packages from command line options
+	IGNOREPKG+=(${P[IgnorePkg]})
+	PKGS_IGNORED=("${IGNOREPKG[@]}")
+	IGNOREGRP+=(${P[IgnoreGroup]})
+	[[ $IGNOREGRP ]] && PKGS_IGNORED+=($(pacman_parse -Sqg "${IGNOREGRP[@]}"))
+	P[ignorepkg]="${PKGS_IGNORED[*]}"
+	return 0
+}
+
+# Wait while pacman locks exists
+pacman_queue() {
+	# from nesl247
+	if [[ -f ${P[lockfile]} ]]; then
+		msg $(gettext 'Pacman is currently in use, please wait.')
+		while [[ -f ${P[lockfile]} ]]; do sleep 3; done
+	fi
+}
+
+# Launch pacman as root
+su_pacman() {
+	pacman_queue; launch_with_su $PACMAN "${PACMAN_C_ARG[@]}" "${PACMAN_O_ARG[@]}" "$@"
+}
+
+# Launch pacman and exit
+pacman_cmd() {
+	(( ! $1 )) && exec $PACMAN "${CMDLINE_ARGS[@]}"
+	(( $1 == 2 )) && load_lib misc && prepare_status_list
+	pacman_queue; launch_with_su $PACMAN "${CMDLINE_ARGS[@]}" || die $?
+	(( $1 == 2 )) && analyse_status_list
+	die 0
+}
+
+# Refresh pacman database
+pacman_refresh() {
+	local _arg
+	title $(gettext 'synchronizing package databases')
+	(( $1 > 1 )) && _arg="-Syy" || _arg="-Sy"
+	(( $HIDEPROGRESS )) && _arg="$_arg --noprogressbar"
+	su_pacman $_arg || exit $?
+}
+
+is_package_ignored() {
+	if [[ " ${P[ignorepkg]} " =~ " $1 " ]]; then
+		if (($2)); then
+			if (($2 == 1)); then
+				tput el1
+				echo -en "$prefix"
+			fi
+			echo -e "$1: $CRED "$(gettext '(ignoring package upgrade)')"$C0"
+		fi
+		return 0
+	fi
+	return 1
+}
+
+# is_x_gt_y ($ver1,$ver2)
+is_x_gt_y() {
+	[[ $(vercmp "$1" "$2" 2> /dev/null) -gt 0 ]]
+}
+
+# vim: set ts=4 sw=4 noet:
