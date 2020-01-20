@@ -19,3 +19,5 @@ export LC_ALL="en_US.UTF-8"
 #export LC_CTYPE="UTF-8"
 
 eval $(/home/bailey/.linuxbrew/bin/brew shellenv)
+
+export PATH=$PATH:/mnt/c/Users/hulseyb/Documents/Website
