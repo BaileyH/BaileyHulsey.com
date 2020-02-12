@@ -1079,3 +1079,87 @@ git pull origin2 master --allow-unrelated-histories
 git status
 #1579464905
 git push origin2 master
+#1580062790
+ls
+#1580062792
+git status
+#1580062836
+git fetch --all
+#1580062847
+git status
+#1580062884
+git pull origin master
+#1580062907
+ls
+#1580062920
+git reset --hard origin master
+#1580062940
+git remote -v
+#1580062958
+git pull origin master
+#1580062986
+rm .gitignore
+#1580062996
+git reset --hard origin master
+#1580063012
+git reset --hard origin/master
+#1580063022
+git pull origin master
+#1580063047
+git checkout master
+#1580063091
+git merge origin/master
+#1580063198
+git stash show
+#1580063203
+git stash list
+#1580063209
+git stash show
+#1580063255
+git stash
+#1580063269
+git pull origin master
+#1580063287
+rm .gitignore
+#1580063293
+git pull origin master
+#1580063312
+rm .junest
+#1580063318
+rm -r .junest
+#1580063386
+rm -rf .junest
+#1580063437
+sudo rm -rf junest
+#1580063518
+ls
+#1580063626
+git fetch --all
+#1580063634
+git status
+#1580063657
+ls
+#1580063676
+rm .gitignore
+#1580063677
+ls
+#1580063684
+git fetch --all
+#1580063689
+ls
+#1580063696
+git status
+#1580063705
+git restore .bash_history
+#1580063710
+git restore .bash_profile
+#1580063716
+git restore .ssh/known_hosts
+#1580063725
+git restore public_html/index.html
+#1580063727
+git status
+#1580063734
+git pull origin master
+#1580063804
+exit
