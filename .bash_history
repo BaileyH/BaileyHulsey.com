@@ -1079,6 +1079,7 @@ git pull origin2 master --allow-unrelated-histories
 git status
 #1579464905
 git push origin2 master
+<<<<<<< HEAD
 #1580062790
 ls
 #1580062792
@@ -1163,3 +1164,5 @@ git status
 git pull origin master
 #1580063804
 exit
+=======
+>>>>>>> 9e9326d46d3c37ea5397c0be71c9c430804749bd
